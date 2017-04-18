@@ -1,0 +1,10 @@
+*/bin/*
+*/obj/*
+*/packages/*
+packages/**
+packages/*
+*.user
+*.suo
+*.orig
+*.cache
+.vs/config/applicationhost.config
