@@ -10,7 +10,7 @@ namespace TT.Dev.Hubs
     {
         public void Send(string name, string message)
         {
-            Clients.All.addNewMessageToPage(name, message);
+            Clients.All.addNewMessageToPages(name, message);
         }
     }
 }
