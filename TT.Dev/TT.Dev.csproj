@@ -222,6 +222,7 @@
     <Content Include="Views\Store\Index.cshtml" />
     <Content Include="Views\Store\Details.cshtml" />
     <Content Include="Views\Store\Browse.cshtml" />
+    <Content Include="Views\Store\GenreMenu.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

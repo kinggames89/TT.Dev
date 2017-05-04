@@ -30,5 +30,12 @@ namespace TT.Dev.Controllers
             var genreModel = storeDB.Genre.Include("Album").Single(g => g.Name == genre);
             return View(genreModel);
         }
+
+        [ChildActionOnly]
+        public ActionResult GenreMenu()
+        {
+            var genres = storeDB.Genre.ToList();
+            return PartialView(genres);
+        }
     }
 }

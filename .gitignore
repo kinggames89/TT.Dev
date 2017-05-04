@@ -8,3 +8,4 @@ packages/*
 *.orig
 *.cache
 .vs/config/applicationhost.config
+MvcMusicStoreDbVersion/MvcMusicStoreDbVersion.dbmdl
